@@ -1,5 +1,6 @@
 import React from 'react';
 import SimpleImageSlider from "react-simple-image-slider";
+import './Section.css'
 
 interface Props {
   bgColor: string;
@@ -14,8 +15,8 @@ interface Props {
 
 const Section: React.FC<Props> = ({ bgColor, youtubeUrl, title, blurb, images, btn, icon, link }) => {
   return (
-    <div style={{ backgroundColor: bgColor, height: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', paddingTop: '50px' }}>
-      <div style={{ width: '30%', height: '40%', paddingBottom: '0%' }}>
+    <div className='main' style={{ backgroundColor: bgColor, height: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', paddingTop: '50px' }}>
+      <div className='youtube' style={{ width: '30%', height: '40%', paddingBottom: '0%' }}>
         <iframe
           title="YouTube video"
           src={youtubeUrl}
@@ -25,7 +26,7 @@ const Section: React.FC<Props> = ({ bgColor, youtubeUrl, title, blurb, images, b
         />
       </div>
       <div style={{display: 'flex', margin: 'auto', justifyContent: 'center', alignItems: 'center', marginTop: '20px' }}>
-      <div style={{ width: '40%', padding: '20px', color: 'white', textAlign: 'center' }}>
+      <div className='blurb' style={{ width: '40%', padding: '20px', color: 'white', textAlign: 'center' }}>
         <h1 style={{ fontSize: '2rem' }}>{title}</h1>
         <p style={{ maxWidth: '400px' }}>{blurb}</p>
         <div style={{ display: 'flex', justifyContent: 'center' }}>
@@ -37,7 +38,7 @@ const Section: React.FC<Props> = ({ bgColor, youtubeUrl, title, blurb, images, b
         </div>
         </div>
 
-        <div style={{ }}>
+        <div className='slide' style={{overflowY: 'hidden'}}>
           <SimpleImageSlider
             width={500}
             height={300}

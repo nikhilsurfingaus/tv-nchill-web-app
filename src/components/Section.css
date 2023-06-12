@@ -1,0 +1,16 @@
+@media (max-width: 1000px) {
+    div>div:nth-child(2) {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .blurb {
+        width: 100% !important;
+    }
+    .main {
+        height: 140vh !important;
+    }
+    .youtube {
+        width: 100% !important;
+    }
+}
