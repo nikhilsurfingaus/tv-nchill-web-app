@@ -1,0 +1,12 @@
+@import url('https://fonts.cdnfonts.com/css/proxima-nova-2');
+.footer-text {
+    text-align: center;
+    color: #fff;
+    font-weight: bold !important;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 1.3rem;
+}
+
+.footer-div {
+    margin-top: 2rem;
+}

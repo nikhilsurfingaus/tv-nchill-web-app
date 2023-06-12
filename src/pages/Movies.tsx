@@ -4,6 +4,7 @@ import {SiNetflix} from 'react-icons/si'
 import {SiHbo} from 'react-icons/si'
 import {SiHulu} from 'react-icons/si'
 import {AiFillApple} from 'react-icons/ai'
+import ScrollToTop from "react-scroll-to-top";
 
 //IKWYDLS
 import { One } from "../assets/showData"
@@ -36,10 +37,13 @@ import { Nine } from "../assets/showData"
 import { Ten } from "../assets/showData"
 
 
+
 const Movies = () => {
 
   return (
     <>
+      <ScrollToTop smooth color="#1e90ff " />
+
        <Section bgColor={One.bg} youtubeUrl={One.url} title={One.title} blurb={One.blurb} images={One.slide} 
             icon={<FaAmazon />} btn='dodgerblue' link={One.link} />
 
