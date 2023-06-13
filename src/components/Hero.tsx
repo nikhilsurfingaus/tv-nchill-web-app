@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className="contain text-white">
             <div className="container d-flex align-items-center justify-content-center vh-100 animate__animated animate__fadeIn">
-      <div className="row align-items-stretch">
+      <div className="row align-items-stretch animate__animated animate__fadeIn animate__slow">
         <div className="col-lg-6 mb-4 d-flex flex-column justify-content-between float">
           <div className="floating-text-box p-4 rounded  text-center">
             <div className="mt-3">

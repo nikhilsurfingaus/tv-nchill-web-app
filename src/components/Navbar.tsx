@@ -16,9 +16,9 @@ export const Navbar = () => {
       }}
     >
       <div className="container-fluid">
-        <div className="navbar-brand mx-auto fw-bolder">
-          <h3 className="animate__animated animate__slideInDown animate__slow title">
-            <FcFilmReel size={60} className="me-1 mb-1" /> TV N'CHILL
+        <div className="animate__animated animate__slideInDown animate__slow navbar-brand mx-auto fw-bolder">
+          <h3 className=" title">
+            <FcFilmReel size={60} className="me-1 mb-1  animate__animated animate__pulse animate__slow animate__infinite	" /> TV N'CHILL
           </h3>
         </div>
       </div>

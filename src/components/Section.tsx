@@ -24,10 +24,12 @@ const Section: React.FC<Props> = ({ bgColor, youtubeUrl, title, blurb, images, b
           src={youtubeUrl}
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
-          style={{ top: 0, left: 0, width: '100%', height: '100%' }}
+          style={{ top: 0, left: 0, width: '100%', height: '100%', 
+          borderRadius: '5px', boxShadow: '0 0 10px 5px #48abe0'
+        }}
         />
       </div>
-      <div style={{display: 'flex', margin: 'auto', justifyContent: 'center', alignItems: 'center', marginTop: '20px' }}>
+      <div style={{display: 'flex', margin: 'auto', justifyContent: 'center', alignItems: 'center', marginTop: '40px' }}>
       <div className='blurb' style={{ width: '60%', padding: '20px', color: 'white', textAlign: 'center' }}>
         <Slide direction="left">
 
@@ -45,7 +47,7 @@ const Section: React.FC<Props> = ({ bgColor, youtubeUrl, title, blurb, images, b
         </Slide>
         </div>
 
-        <div className='slide' style={{ overflowX: 'hidden', overflowY: 'hidden' }}>
+        <div className='slide' style={{ overflowX: 'hidden', overflowY: 'hidden'}}>
 
           <SimpleImageSlider
             width={500}

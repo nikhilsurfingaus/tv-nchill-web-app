@@ -9,8 +9,15 @@
     }
     .main {
         height: 140vh !important;
+        width: 100vw !important;
     }
     .youtube {
         width: 100% !important;
+    }
+    .slide {
+        width: 100%;
+        max-width: 100vw;
+        overflow: hidden;
+        margin-left: -27vw;
     }
 }
