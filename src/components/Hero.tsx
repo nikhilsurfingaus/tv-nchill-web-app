@@ -30,7 +30,7 @@ const Hero = () => {
               </h3>
             </div>
             <div className="mt-4 d-flex justify-content-center">
-              <div className='d-flex align-items-center me-5 text-white fw-bold' >
+              <div className='d-flex align-items-center text-white fw-bold' >
                 <AiOutlineArrowDown size={100} className="me-1" />
               </div>
             </div>

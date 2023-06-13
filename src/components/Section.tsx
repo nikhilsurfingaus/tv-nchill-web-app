@@ -28,11 +28,13 @@ const Section: React.FC<Props> = ({ bgColor, youtubeUrl, title, blurb, images, b
         />
       </div>
       <div style={{display: 'flex', margin: 'auto', justifyContent: 'center', alignItems: 'center', marginTop: '20px' }}>
-      <div className='blurb' style={{ width: '40%', padding: '20px', color: 'white', textAlign: 'center' }}>
+      <div className='blurb' style={{ width: '60%', padding: '20px', color: 'white', textAlign: 'center' }}>
         <Slide direction="left">
 
         <h1 style={{ fontSize: '2rem' }}>{title}</h1>
-        <p style={{ maxWidth: '400px' }}>{blurb}</p>
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <p style={{ maxWidth: '400px'}}>{blurb}</p>
+        </div>
         <div style={{ display: 'flex', justifyContent: 'center' }}>
             <a href={link} target="_blank" rel="noreferrer">
                 <button style={{ background: btn }} className='btn text-white'>
@@ -43,7 +45,7 @@ const Section: React.FC<Props> = ({ bgColor, youtubeUrl, title, blurb, images, b
         </Slide>
         </div>
 
-        <div className='slide' style={{overflowY: 'hidden'}}>
+        <div className='slide' style={{ overflowX: 'hidden', overflowY: 'hidden' }}>
 
           <SimpleImageSlider
             width={500}
