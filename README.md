@@ -24,10 +24,41 @@ https://github.com/nikhilsurfingaus/tv-nchill-web-app/assets/46309727/e32cf2f2-b
 
 ## Screenshots
 <p float="left">
-  <img src="https://github.com/nikhilsurfingaus/xrp-ripple-hinman-countdown/blob/master/src/assets/1.jpg" height=45% width=45% />
-  <img src="https://github.com/nikhilsurfingaus/xrp-ripple-hinman-countdown/blob/master/src/assets/2.jpg" height=45% width=45% />
-  <img src="https://github.com/nikhilsurfingaus/xrp-ripple-hinman-countdown/blob/master/src/assets/3.jpg" height=20% width=20% />
+  <img src="https://github.com/nikhilsurfingaus/tv-nchill-web-app/blob/master/src/assets/1.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/tv-nchill-web-app/blob/master/src/assets/2.jpg" height=45% width=45% />
+  <img src="https://github.com/nikhilsurfingaus/tv-nchill-web-app/blob/master/src/assets/3.jpg" height=45% width=45% />
 </p>
+<p float="left">
+  <img src="https://github.com/nikhilsurfingaus/tv-nchill-web-app/blob/master/src/assets/4.jpg" height=20% width=20% />
+  <img src="https://github.com/nikhilsurfingaus/tv-nchill-web-app/blob/master/src/assets/5.jpg" height=20% width=20% />
+</p>
+
+## Libraries
+        "@emotion/react": "^11.11.1",
+        "@testing-library/jest-dom": "^5.16.5",
+        "@testing-library/react": "^13.4.0",
+        "@testing-library/user-event": "^13.5.0",
+        "@types/jest": "^27.5.2",
+        "@types/node": "^16.18.35",
+        "@types/react": "^18.2.11",
+        "@types/react-dom": "^18.2.4",
+        "animate.css": "^4.1.1",
+        "bootstrap": "^5.3.0",
+        "firebase": "^9.22.2",
+        "lottie-react": "^2.4.0",
+        "react": "^18.2.0",
+        "react-awesome-reveal": "^4.2.3",
+        "react-dom": "^18.2.0",
+        "react-icons": "^4.9.0",
+        "react-scripts": "5.0.1",
+        "react-scroll-to-top": "^3.0.0",
+        "react-simple-image-slider": "^2.4.1",
+        "react-snap-scroll": "^0.0.5",
+        "react-use-scroll-snap": "^0.0.4",
+        "scroll-snap": "^4.0.3",
+        "typescript": "^4.9.5",
+        "typewriter-effect": "^2.20.1",
+        "web-vitals": "^2.1.4"
 
 # Contributing
 If you find a bug or have a feature request, please open an issue or submit a pull request. Contributions are always welcome!
