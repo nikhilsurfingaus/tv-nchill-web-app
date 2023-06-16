@@ -12,6 +12,7 @@ src="https://www.drupal.org/files/project-images/animate.png" alt="drawing"  hei
 # Features
 - Showcase 10 Popular Streaming Shows
 - UI/UX Design Principles
+- Auto Section Scroll Effect
 - Fluid Animations
 - Firebase BaaS Like Counter
 - Hinman Document Link
@@ -19,6 +20,7 @@ src="https://www.drupal.org/files/project-images/animate.png" alt="drawing"  hei
 - Responsive Mobile/Desktop Views
 
 ## Video Demo
+https://github.com/nikhilsurfingaus/tv-nchill-web-app/assets/46309727/e32cf2f2-b719-4a57-9066-2ff94f68e789
 
 ## Screenshots
 <p float="left">
