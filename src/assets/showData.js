@@ -106,11 +106,11 @@ export const Six = {
 
 export const Seven = {
     bg: 'black',
-    url: 'https://www.youtube.com/embed/TWVMBfMpFiU',
-    title: '#7 One Of Us Is Lying',
-    blurb: 'Based on the bestselling novel by Karen M. McManus. The story revolves around five high school students who enter detention, but only four come out alive. As secrets, lies, and hidden motives are exposed, the remaining students must navigate a web of suspicion and betrayal to unravel the truth behind the mysterious death and prove their innocence before they become the next targets. ',
+    url: 'https://www.youtube.com/embed/ogRNXn6Qoj0',
+    title: '#7 Wilderness',
+    blurb: 'A dream holiday becomes a nightmare for a young British couple who seemingly have it all. Liv and Will Taylor are a young British couple whose marriage is threatened when Liv sees a message on Wills mobile phone revealing his affair with a co-worker. Heartbreak quickly turns into fury and revenge. ',
     slide: [Sevencov, Seven1, Seven2, Seven3],
-    link: 'https://www.peacocktv.com'
+    link: 'https://www.primevideo.com/detail/Wilderness/0RDVBUN50P0ICEOV29PCHNQFKJ'
 }
 
 export const Eight = {
@@ -124,18 +124,18 @@ export const Eight = {
 
 export const Nine = {
     bg: 'black',
-    url: 'https://www.youtube.com/embed/jZj4M_Qz-mI',
-    title: '#9 Bodyguard BBC',
-    blurb: 'A  a gripping BBC series that follows David Budd, a war veteran turned police sergeant, assigned to protect a controversial politician. As Budd investigates threats against the politician life, he becomes entangled in a complex web of conspiracy, deceit, and political intrigue. The show keeps viewers on the edge of their seats with intense action, suspenseful plot twists, and a captivating portrayal of the psychological toll faced by those tasked with safeguarding others.',
+    url: 'https://www.youtube.com/embed/3k9o6y-wjMg',
+    title: '#9 Seal Team (CBS)',
+    blurb: 'The series follows Bravo Team, a sub-unit of the United States Naval Special Warfare Development Group better known as DEVGRU or Seal Team Six. The most elite unit of Navy SEALs, as they plan and undertake dangerous missions worldwide with little notice, and the burden placed on them and their families.',
     slide: [Ninecov, Nine1, Nine2, Nine3],
-    link: 'https://www.netflix.com/au/title/80235864'
+    link: 'https://www.paramountplus.com/au/account/signin/?redirectUrl=%2Fshows%2Fseal-team%2F'
 }
 
 export const Ten = {
     bg: '#004375',
-    url: 'https://www.youtube.com/embed/Bglj2PeVNTA',
-    title: '#10 Marvels Cloak And Dagger',
-    blurb: 'Two teenagers, Tyrone Johnson and Tandy Bowen, who gain superhuman abilities after a traumatic event. Tyrone possesses the power of darkness and Tandy wields the power of light. As they discover their newfound powers, they form a deep connection and become vigilantes, using their abilities to fight crime and confront their own personal demons while navigating the complexities of adolescence and their intertwined destinies.',
+    url: 'https://www.youtube.com/embed/qgfNOKoykL4',
+    title: '#10 Nancy Drew',
+    blurb: 'Young Nancy Drew makes plans to leave her hometown for college after high school graduation, but finds herself drawn into a supernatural murder mystery. Young Nancy Drew makes plans to leave her hometown for college after high school graduation, But, when a socialite is murdered, Nancy finds herself and four other teens who were also at the scene of the crime, prime suspects.',
     slide: [Tencov, Ten1, Ten2, Ten3],
-    link: 'https://www.primevideo.com/detail/Marvel%E2%80%99s-Cloak-Dagger/0TIV1JQFT6FI8UONX8R9833QJL'
+    link: 'https://tv.apple.com/au/show/nancy-drew/umc.cmc.4qw9qhfnhha5ey2g6ed3tighb'
 }
