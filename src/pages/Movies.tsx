@@ -7,6 +7,7 @@ import {AiFillApple} from 'react-icons/ai'
 import ScrollToTop from "react-scroll-to-top";
 import useScrollSnap from "react-use-scroll-snap";
 import { useRef } from "react";
+import {TbMountain} from 'react-icons/tb'
 
 //IKWYDLS
 import { One } from "../assets/showData"
@@ -134,18 +135,19 @@ const Movies = () => {
             <Section likes={sixLikes}  bgColor={Six.bg} youtubeUrl={Six.url} title={Six.title} blurb={Six.blurb} images={Six.slide} 
                   icon={<AiFillApple />} btn='black' link={Six.link} />
 
-            <Section likes={sevenLikes} bgColor={Seven.bg} youtubeUrl={Seven.url} title={Seven.title} blurb={Seven.blurb} images={Seven.slide} 
-                  icon={<SiHulu />} btn='limegreen' link={Seven.link} />
 
-            <Section likes={eightLikes} bgColor={Eight.bg} youtubeUrl={Eight.url} title={Eight.title} blurb={Eight.blurb} images={Eight.slide} 
+            <Section likes={sevenLikes}  bgColor={Seven.bg} youtubeUrl={Seven.url} title={Seven.title} blurb={Seven.blurb} images={Seven.slide} 
+                  icon={<FaAmazon />} btn='dodgerblue' link={Seven.link} />
+
+
+            <Section  likes={eightLikes} bgColor={Eight.bg} youtubeUrl={Eight.url} title={Eight.title} blurb={Eight.blurb} images={Eight.slide} 
                   icon={<FaAmazon />} btn='dodgerblue' link={Eight.link} />
 
             <Section likes={nineLikes}  bgColor={Nine.bg} youtubeUrl={Nine.url} title={Nine.title} blurb={Nine.blurb} images={Nine.slide} 
-                  icon={<SiNetflix />} btn='crimson' link={Nine.link} />
+                  icon={<TbMountain />} btn='dodgerblue' link={Nine.link} />
 
             <Section likes={tenLikes}  bgColor={Ten.bg} youtubeUrl={Ten.url} title={Ten.title} blurb={Ten.blurb} images={Ten.slide} 
-                  icon={<FaAmazon />} btn='dodgerblue' link={Ten.link} />
-
+                  icon={<AiFillApple />} btn='black' link={Ten.link} />
       </div>
 
 
