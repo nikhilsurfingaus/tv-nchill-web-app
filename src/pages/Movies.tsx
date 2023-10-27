@@ -135,8 +135,10 @@ const Movies = () => {
             <Section likes={sixLikes}  bgColor={Six.bg} youtubeUrl={Six.url} title={Six.title} blurb={Six.blurb} images={Six.slide} 
                   icon={<AiFillApple />} btn='black' link={Six.link} />
 
+
             <Section likes={sevenLikes}  bgColor={Seven.bg} youtubeUrl={Seven.url} title={Seven.title} blurb={Seven.blurb} images={Seven.slide} 
                   icon={<FaAmazon />} btn='dodgerblue' link={Seven.link} />
+
 
             <Section  likes={eightLikes} bgColor={Eight.bg} youtubeUrl={Eight.url} title={Eight.title} blurb={Eight.blurb} images={Eight.slide} 
                   icon={<FaAmazon />} btn='dodgerblue' link={Eight.link} />
@@ -146,7 +148,6 @@ const Movies = () => {
 
             <Section likes={tenLikes}  bgColor={Ten.bg} youtubeUrl={Ten.url} title={Ten.title} blurb={Ten.blurb} images={Ten.slide} 
                   icon={<AiFillApple />} btn='black' link={Ten.link} />
-
       </div>
 
 
