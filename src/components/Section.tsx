@@ -2,6 +2,9 @@ import React from 'react';
 import SimpleImageSlider from "react-simple-image-slider";
 import './Section.css'
 import { Slide } from "react-awesome-reveal";
+import {FiThumbsUp} from 'react-icons/fi'
+import {useState} from 'react'
+import {FaThumbsUp} from 'react-icons/fa'
 
 interface Props {
   bgColor: string;
@@ -12,9 +15,21 @@ interface Props {
   btn: string;
   icon: any;
   link: string;
+  likes: number;
 }
 
-const Section: React.FC<Props> = ({ bgColor, youtubeUrl, title, blurb, images, btn, icon, link }) => {
+const Section: React.FC<Props> = ({ bgColor, youtubeUrl, title, blurb, images, btn, icon, link, likes }) => {
+
+  const [clickThumb, setClickThumb] = useState(false);
+
+  const handleClick = () => {
+    //Only Enter Once Session
+    if (!clickThumb) { 
+      setClickThumb(true);
+    }
+    return
+  }
+
   return (
     <div className='main' style={{ backgroundColor: bgColor, height: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', paddingTop: '50px' }}>
 
@@ -43,6 +58,9 @@ const Section: React.FC<Props> = ({ bgColor, youtubeUrl, title, blurb, images, b
                     Watch Now {icon}
                 </button>
             </a>
+            <div style={{display: 'flex',justifyContent: 'center', alignItems: 'center',marginLeft: '10px', marginTop: '5px', fontWeight: 'bold'}}>
+              {clickThumb ? <FaThumbsUp size={20} style={{cursor: 'pointer'}} />  : <FiThumbsUp onClick={() => handleClick() } size={20} style={{cursor: 'pointer'}} />} <span  style={{marginLeft: '5px'}}>+{likes}k</span>
+            </div>
         </div>
         </Slide>
         </div>
