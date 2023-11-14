@@ -1,7 +1,6 @@
 import Section from "../components/Section"
 import {FaAmazon} from 'react-icons/fa'
 import {SiNetflix} from 'react-icons/si'
-import {SiHbo} from 'react-icons/si'
 import {SiHulu} from 'react-icons/si'
 import {AiFillApple} from 'react-icons/ai'
 import ScrollToTop from "react-scroll-to-top";
@@ -126,7 +125,7 @@ const Movies = () => {
                   icon={<SiNetflix />} btn='crimson' link={Three.link} />
 
             <Section likes={fourLikes}  bgColor={Four.bg} youtubeUrl={Four.url} title={Four.title} blurb={Four.blurb} images={Four.slide} 
-                  icon={<SiHbo />} btn='darkorchid' link={Four.link} />
+                  icon={<AiFillApple />} btn='black' link={Four.link} />
 
             <Section likes={fiveLikes}  bgColor={Five.bg} youtubeUrl={Five.url} title={Five.title} blurb={Five.blurb} images={Five.slide} 
                   icon={<SiHulu />} btn='limegreen' link={Five.link} />

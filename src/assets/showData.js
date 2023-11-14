@@ -77,11 +77,11 @@ export const Three = {
 
 export const Four = {
     bg: '#004375',
-    url: 'https://www.youtube.com/embed/UR4Pxgnm-GA',
-    title: '#4 Euphoria',
-    blurb: 'A group of high school students as they navigate through the complexities of adolescence, identity, and addiction. Led by the troubled and captivating Rue, the show explores themes of love, trauma, and the quest for self-discovery, while shedding light on the harsh realities faced by todays youth.',
+    url: 'https://www.youtube.com/embed/i92JVekUxlU',
+    title: '#4 Pretty Little Liars: The Perfectionists',
+    blurb: 'A group of college students in Beacon Heights faces the aftermath of a murder. Led by Alison and Mona, they navigate secrets, deception, and personal struggles while trying to uncover the truth behind the mysterious events in their seemingly perfect town.',
     slide: [Fourcov, Four1, Four2, Four3],
-    link: 'https://www.hbo.com/euphoria'
+    link: 'https://tv.apple.com/au/show/pretty-little-liars-the-perfectionists/umc.cmc.4jg6bkm2tuelcz82gp7q0rsup'
 }
 
 
